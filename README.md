@@ -1,24 +1,37 @@
-# hello_world
+# Arle Associates Statistics App
 
-A new Flutter project created with https://flutlab.io
+Arle Associates Statistics App is a mobile application built using Flutter and Dart that helps track and visualize the statistics of associates in the Arle company.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Displays overall statistics of the associates in the company.
+- Allows filtering statistics by various parameters, such as department, location, and experience level.
+- Provides insights into individual performance metrics, such as sales, customer satisfaction ratings, and project completion rates.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- https://flutter.dev/docs/get-started/codelab
-- https://flutter.dev/docs/cookbook
+To use the Arle Associates Statistics App, follow these steps:
 
-For help getting started with Flutter, view our
-https://flutter.dev/docs, which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
 
-## Getting Started: FlutLab - Flutter Online IDE
+git clone https://github.com/your-username/arle-associates-statistics-app.git
 
-- How to use FlutLab? Please, view our https://flutlab.io/docs
-- Discover a marketplace of ready-to-use Flutter projects https://flutlab.io/widgetbay
-- Join the discussion and conversation on https://flutlab.io/residents
+2. Navigate to the project directory:
 
-If you have some questions regarding FlutLab, you can ask on https://flutlab.io/faq
+cd arle-associates-statistics-app
+
+3. Install the required packages:
+
+flutter pub get
+
+4. Run the app:
+
+flutter run
+
+## Contributors
+
+The following people have contributed to the development of the Arle Associates Statistics App:
+
+- [Fernando Bertoncello Bellelis](https://github.com/nandobb1411) - Data scientist, Dev
+- [Leonardo Cavalcanti](https://github.com/leohcavalcanti) - Designer, Dev
+- [Ryan](https://github.com/ryanpereirax) - Dev
