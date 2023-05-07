@@ -44,14 +44,14 @@ dev_dependencies:
     sdk: flutter
 
 flutter_native_splash:
-  color: "#F6F6F6"
+  color: "#ADD8E6"
   color_dark: "#201E1E"
   image: assets/images/splash/logo_arle.png
   image_dark: assets/images/splash/logo_arle.png
 
   android_12:
     image: assets/images/splash/logo_arle.png
-    icon_background_color: "#F6F6F6"
+    icon_background_color: "#ADD8E6"
     image_dark: assets/images/splash/logo_arle.png
     icon_background_color_dark: "#201E1E"
 
