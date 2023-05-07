@@ -3,6 +3,7 @@ import 'package:arle_app/src/constants/image_strings.dart';
 import 'package:arle_app/src/constants/sizes.dart';
 import 'package:arle_app/src/constants/text_strings.dart';
 import 'package:arle_app/src/features/authentication/screens/login/login_screen.dart';
+import 'package:arle_app/src/features/authentication/screens/login/signup/signup_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -38,7 +39,7 @@ class WelcomeView extends StatelessWidget {
                     ),
                     child: Text("Login".toUpperCase()))),
                 const SizedBox(width: 10.0,),
-                Expanded(child: ElevatedButton(onPressed: (){},
+                Expanded(child: ElevatedButton(onPressed: () => Get.to(() => const SignUpScreen()),
                     style: ElevatedButton.styleFrom(
                         elevation: 0,
                         shape: RoundedRectangleBorder(),
