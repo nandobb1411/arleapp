@@ -12,16 +12,6 @@ class LoginFooterWidget extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        const Text("OR"),
-        const SizedBox(height: tFromHeight -20,),
-        SizedBox(
-          width: double.infinity,
-          child: OutlinedButton.icon(
-            icon: Image(image: AssetImage(tGoogleLogoImage), width: 20.0,),
-            onPressed: (){},
-            label: Text("Sign-In with Google"),
-          ),
-        ),
         const SizedBox(height: tFromHeight -20,),
         TextButton(
           onPressed: (){},
