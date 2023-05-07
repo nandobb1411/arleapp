@@ -22,7 +22,7 @@ class LoginScreen extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                FormHeaderWidget(image: tLoginImage, title: tLoginTitle, subTitle: tLoginSubTitle),
+                FormHeaderWidget(image: tLogin_SignUp_Image, title: tLoginTitle, subTitle: tLoginSubTitle),
                 const LoginForm(),
                 const LoginFooterWidget()
               ],
