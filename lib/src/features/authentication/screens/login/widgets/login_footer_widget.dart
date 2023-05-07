@@ -1,3 +1,4 @@
+import 'package:arle_app/src/constants/text_strings.dart';
 import 'package:flutter/material.dart';
 import '../../../../../constants/sizes.dart';
 
@@ -16,7 +17,7 @@ class LoginFooterWidget extends StatelessWidget {
           onPressed: (){},
           child: Text.rich(
             TextSpan(
-              text: "Already heve an Account?",
+              text: tDontHaveAnAccount,
               style: Theme.of(context).textTheme.bodyLarge,
               children: [
                 TextSpan(
