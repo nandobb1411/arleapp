@@ -25,7 +25,7 @@ class SignUpScreen extends StatelessWidget {
                   subTitle: tSignUpSubTitle,
                 ),
                 const SignUpForm(),
-                const SignUpFooterWidget()
+                const SignUpFooterWidget(),
               ],
             ),
           ),
