@@ -46,13 +46,13 @@ dev_dependencies:
 flutter_native_splash:
   color: "#F6F6F6"
   color_dark: "#201E1E"
-  image: assets/images/Arle.png
-  image_dark: assets/images/Arle.png
+  image: assets/images/splash/logo_arle.png
+  image_dark: assets/images/splash/logo_arle.png
 
   android_12:
-    image: assets/images/Arle.png
+    image: assets/images/splash/logo_arle.png
     icon_background_color: "#F6F6F6"
-    image_dark: assets/images/Arle.png
+    image_dark: assets/images/splash/logo_arle.png
     icon_background_color_dark: "#201E1E"
 
 
@@ -74,4 +74,3 @@ flutter:
   assets:
     - assets/images/welcome_image/
     - assets/images/login/
-    - assets/logo/
