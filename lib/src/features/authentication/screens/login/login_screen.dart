@@ -1,8 +1,10 @@
+import 'package:arle_app/src/common_widgets/form/form_header_widget.dart';
+import 'package:arle_app/src/constants/image_strings.dart';
 import 'package:arle_app/src/constants/sizes.dart';
+import 'package:arle_app/src/constants/text_strings.dart';
 import 'package:flutter/material.dart';
 import 'widgets/login_footer_widget.dart';
 import 'widgets/login_form_widget.dart';
-import 'widgets/login_header_widget.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -20,7 +22,7 @@ class LoginScreen extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                LoginHeaderWidget(size: size),
+                FormHeaderWidget(image: tLoginImage, title: tLoginTitle, subTitle: tLoginSubTitle),
                 const LoginForm(),
                 const LoginFooterWidget()
               ],
