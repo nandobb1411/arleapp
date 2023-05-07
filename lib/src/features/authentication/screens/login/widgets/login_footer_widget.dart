@@ -1,5 +1,7 @@
 import 'package:arle_app/src/constants/text_strings.dart';
+import 'package:arle_app/src/features/authentication/screens/login/signup/signup_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import '../../../../../constants/sizes.dart';
 
 class LoginFooterWidget extends StatelessWidget {
@@ -12,9 +14,11 @@ class LoginFooterWidget extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        const SizedBox(height: tFromHeight -20,),
+        const SizedBox(
+          height: tFromHeight - 20,
+        ),
         TextButton(
-          onPressed: (){},
+          onPressed: () => Get.to(() => const SignUpScreen()),
           child: Text.rich(
             TextSpan(
               text: tDontHaveAnAccount,
