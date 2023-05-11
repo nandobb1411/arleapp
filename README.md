@@ -22,11 +22,11 @@ cd arle-associates-statistics-app
 
 3. Install the required packages:
 
-flutter pub get
+Flutter pub get
 
 4. Run the app:
 
-flutter run
+Flutter run
 
 ## Contributors
 
