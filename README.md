@@ -2,6 +2,11 @@
 
 Arle Associates Statistics App is a mobile application built using Flutter and Dart that helps track and visualize the statistics of associates in the Arle company.
 
+## Documentação do Projeto(Como executar, Descrição do que foi desenvolvido, Pontos de Melhorias).
+
+https://docs.google.com/document/d/e/2PACX-1vSc7j2Qh3w0yZKEuhLpvFN-22W5PAv5Kx9twYXUUo5H0WSoM3VqGSg0f1ChPhBv-pSCgr-oVJQ6vGLe/pub
+
+
 ## Features
 
 - Displays overall statistics of the associates in the company.
